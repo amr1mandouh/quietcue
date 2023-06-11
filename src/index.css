@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root { font-family: 'Manrope', sans-serif; color: #f8f0e8; background: #201824; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: #201824; }
+button, input, select { font: inherit; }
+button, select, input[type='checkbox'], input[type='radio'] { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid #f4b48a; outline-offset: 3px; }
+

@@ -7,4 +7,5 @@ const localStorageMock: Storage = { getItem: (key) => store.get(key) ?? null, se
 Object.defineProperty(window, 'localStorage', { value: localStorageMock })
 beforeEach(() => { store.clear(); vi.restoreAllMocks() })
 afterEach(() => { cleanup(); store.clear() })
+// Keep each cue test independent, even when a previous show was saved.
 // Keep each show test independent, even when a previous test saved a load.
